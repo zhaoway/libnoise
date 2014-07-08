@@ -54,7 +54,7 @@ namespace noise
     /// source module for other noise modules.
     ///
     /// This noise module does not require any source modules.
-    class Const: public Module
+    class   LIBNOISE_DLL  Const: public Module
     {
 
       public:

@@ -66,7 +66,7 @@ namespace noise
     /// respectively.
     ///
     /// This noise module requires one source module.
-    class TranslatePoint: public Module
+    class   LIBNOISE_DLL  TranslatePoint: public Module
     {
 
       public:

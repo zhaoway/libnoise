@@ -46,7 +46,7 @@ namespace noise
     /// @image html modulemin.png
     ///
     /// This noise module requires two source modules.
-    class Min: public Module
+    class   LIBNOISE_DLL  Min: public Module
     {
 
       public:

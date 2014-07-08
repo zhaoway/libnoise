@@ -26,9 +26,12 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <math.h>
+
+#include "../export.h"
 #include "../basictypes.h"
 #include "../exception.h"
 #include "../noisegen.h"
+
 
 namespace noise
 {
@@ -220,7 +223,7 @@ namespace noise
     /// It shouldn't be too difficult to create your own noise module.  If you
     /// still have some problems, take a look at the source code for
     /// noise::module::Add, which is a very simple noise module.
-    class Module
+    class   LIBNOISE_DLL  Module
     {
 
       public:

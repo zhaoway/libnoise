@@ -87,7 +87,7 @@ namespace noise
     /// formations or crystal-like textures
     ///
     /// This noise module requires no source modules.
-    class Voronoi: public Module
+    class   LIBNOISE_DLL  Voronoi: public Module
     {
 
       public:

@@ -51,7 +51,7 @@ namespace noise
     /// for debugging purposes.
     ///
     /// This noise module does not require any source modules.
-    class Checkerboard: public Module
+    class  LIBNOISE_DLL   Checkerboard: public Module
     {
 
       public:

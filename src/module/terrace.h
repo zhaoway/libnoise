@@ -70,7 +70,7 @@ namespace noise
     /// your stereotypical desert canyon.
     ///
     /// This noise module requires one source module.
-    class Terrace: public Module
+    class   LIBNOISE_DLL  Terrace: public Module
     {
 
 	    public:

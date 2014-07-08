@@ -47,7 +47,7 @@ namespace noise
     /// @image html moduleadd.png
     ///
     /// This noise module requires two source modules.
-    class Add: public Module
+    class  LIBNOISE_DLL   Add: public Module
     {
 
       public:

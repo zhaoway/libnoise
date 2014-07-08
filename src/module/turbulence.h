@@ -110,7 +110,7 @@ namespace noise
     /// and one for the @a z coordinate.
     ///
     /// This noise module requires one source module.
-    class Turbulence: public Module
+    class   LIBNOISE_DLL  Turbulence: public Module
     {
 
       public:

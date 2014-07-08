@@ -50,7 +50,7 @@ namespace noise
     /// The second source module must have an index value of 1.
     ///
     /// This noise module requires two source modules.
-    class Power: public Module
+    class   LIBNOISE_DLL  Power: public Module
     {
 
       public:

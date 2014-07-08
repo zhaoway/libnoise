@@ -66,7 +66,7 @@ namespace noise
     /// that perform the displacement operation.
     ///
     /// This noise module requires four source modules.
-    class Displace: public Module
+    class  LIBNOISE_DLL   Displace: public Module
     {
 
       public:
